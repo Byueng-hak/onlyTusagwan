@@ -6,7 +6,7 @@
 
 이 프로젝트에서는 다양한 종류의 꽃을 인식하도록 이미지 분류기를 학습합니다. 카메라가보고있는 꽃의 이름을 알려주는 전화 앱에서 이와 같은 것을 사용하는 것을 상상할 수 있습니다. 실제로는이 분류기를 학습 한 다음 애플리케이션에서 사용하기 위해 내 보냅니다. 102 개의 꽃 카테고리로 구성된이 데이터 세트를 사용할 것입니다. 아래에서 몇 가지 예를 볼 수 있습니다.
 
-  ![그림입니다.  원본 그림의 이름: CLP000037c44b71.bmp  원본 그림의 크기: 가로 521pixel, 세로 270pixel](file:///C:\Users\dhkd4\AppData\Local\Temp\tmp7B1F.jpg)  
+<img src="./imgs/1.JPG" style="zoom: 50%;" />
 
 프로젝트는 여러 단계로 나뉩니다.
 
@@ -469,7 +469,7 @@ Out[17]:
 <matplotlib.axes._subplots.AxesSubplot at 0x7fb4be6abf28>
 ```
 
-![image-20201210184403855](C:\Users\dhkd4\AppData\Roaming\Typora\typora-user-images\image-20201210184403855.png)
+<img src="./imgs/2.JPG" style="zoom: 50%;" />
 
 # Class Prediction
 
@@ -539,7 +539,7 @@ tensor([[ 0.7722,  0.1411,  0.0865,  0.0002,  0.0000]])
 
 이제 학습 된 모델을 예측에 사용할 수 있으므로 의미가 있는지 확인하십시오. 테스트 정확도가 높더라도 명백한 버그가 없는지 항상 확인하는 것이 좋습니다. matplotlib를 사용하여 상위 5 개 클래스에 대한 확률을 입력 이미지와 함께 막대 그래프로 플로팅합니다. 다음과 같이 표시되어야합니다.
 
-![image-20201210184518286](C:\Users\dhkd4\AppData\Roaming\Typora\typora-user-images\image-20201210184518286.png)
+<img src="./imgs/3.JPG" style="zoom: 50%;" />
 
 cat_to_name.json 파일을 사용하여 클래스 정수 인코딩에서 실제 꽃 이름으로 변환 할 수 있습니다 (노트북에서 이전에로드되어야 함). PyTorch 텐서를 이미지로 표시하려면 위에 정의 된 imshow 함수를 사용하십시오.
 
@@ -580,4 +580,4 @@ Top Classes:  ['29', '14', '13', '10', '30']
 Top Probs:  tensor([[ 0.7722,  0.1411,  0.0865,  0.0002,  0.0000]])
 ```
 
-![image-20201210184624048](C:\Users\dhkd4\AppData\Roaming\Typora\typora-user-images\image-20201210184624048.png)
+<img src="./imgs/4.JPG" style="zoom: 50%;" />
